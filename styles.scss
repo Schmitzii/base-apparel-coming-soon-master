@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.content-wrapper {
+  margin-top: 10px;
+  text-align: center;
+  padding: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hero-text {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: hsl(0, 6%, 24%);
+}
+
+span {
+  color: hsl(0, 36%, 70%);
+  font-weight: 100;
+}
+
+.info {
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+  line-height: 1.5;
+}
+
+.input-text {
+  padding: min(15px, 20px);
+  color: hsl(0, 36%, 70%);
+  border: 1px solid hsl(0, 93%, 68%);
+  border-radius: 50px;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-right: 3000px;
+}
+
+form {
+  position: relative;
+}
+
+.input-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(110px, 120px);
+  height: 99%;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px hsl(0, 36%, 70%);
+}
+
+.input-submit::after {
+  content: url(./images/icon-arrow.svg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}

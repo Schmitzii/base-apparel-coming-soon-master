@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-  We're coming soon
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="Logo" class="logo" width="100px" />
+    <img src="images/hero-mobile.jpg" alt="Hero Image" class="hero-image" />
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <div class="content-wrapper">
+      <h1 class="hero-text"><span>We're</span> coming soon</h1>
+
+      <p class="info">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our
+        launch deals.
+      </p>
+    </div>
+
+    <form action="#" id="form">
+      <label for="input-text">
+        <input
+          name="label-element"
+          type="text"
+          class="input-text"
+          id="input-text"
+          placeholder="Email Adress"
+        />
+      </label>
+      <button
+        name="titleundefined"
+        type="submit"
+        class="input-submit"
+        id="input-submit"
+      ></button>
+    </form>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Schmitzii">Schmitzii</a>.
+      </p>
+    </footer>
+  </body>
 </html>
